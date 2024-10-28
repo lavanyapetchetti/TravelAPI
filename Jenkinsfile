@@ -1,6 +1,10 @@
 pipeline {
     agent any
 
+    environment {
+        VAULT_TOKEN = credentials('vault-token-id') 
+    }
+
     tools {
         nodejs 'Node_23'
     }
