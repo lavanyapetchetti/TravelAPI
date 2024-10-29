@@ -1,5 +1,5 @@
 # ControlUp
-This is a node.js repo for Edge DX – Cloud QA Automation
+This is a node.js repo for Edge DX – Cloud QA Automation update
 
 ## Installation
 ```bash
