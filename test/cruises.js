@@ -29,10 +29,10 @@ describe('Tripadvisor Cruises API Tests', function () {
     it('Should get cruises for the Caribbean and sort by crew size', async() => {
         expect(destinationId).to.exist; // Checks that it's defined
         expect(destinationId).to.not.be.null; // Checks that it's not null
-        // let destinationId = 147237;
+
         const cruisesResponse = await api.get(`/cruises/searchCruises?destinationId=${destinationId}&order=popularity&page=1&currencyCode=USD`);
 
-        const sortedShips = sortAndFilterShips(cruisesResponse.data.list);
+        const sortedShips = sortAndFilterShips(cruisesResponse.data.list, 'crew');
 
         // Log and display ship names sorted by crew size
         console.log('Ships sorted by crew size:');
