@@ -7,9 +7,6 @@ dotenv.config();
 // Now you can access your variables
 const apiKey = process.env.API_KEY;
 
-// Example usage
-console.log('Vault Token:', apiKey);
-
 // Function to make GET requests
 const get = async (url, additionalHeaders = {}) => {
     const config = {
