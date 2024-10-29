@@ -1,11 +1,19 @@
-name: CI
+name: Generate .env File
 
-on: [push, pull_request]
+on:
+  push:
+    branches:
+      - main  # Change to your desired branch
 
 jobs:
-  build:
-    runs-on: ubuntu-
+  generate-env:
+    runs-on: ubuntu-latest
 
     steps:
-      - name: Example step
-        run: echo "${{ secrets.VAULT_TOKEN }}"
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Generate .env File
+        run: |
+          echo "API_KEY=${{ secrets.VAULT_TOKEN }}" >> .env
+          
