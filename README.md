@@ -17,7 +17,7 @@ This project requires a `.env` file for configuration. Follow these steps to set
 
 2. Configure Environment Variables:
 
-Open the .env file and add the required API keys. For Example
+Open the .env file in text editor and add the required API keys. For Example
 ``` bash
 API_KEY='XXX'
 ```
