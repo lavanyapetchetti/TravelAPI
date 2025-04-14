@@ -10,7 +10,7 @@ cd controlUp
 ## Getting Started
 
 This project requires a `.env` file for configuration. Follow these steps to set it up:
-1. Create the .env file
+1. Create a .env file in the root directory and add your RapidAPI key:
 ```bash
  touch .env 
  ```
