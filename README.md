@@ -1,6 +1,8 @@
 # TravelAPI
 This project provides an automated testing framework for the Tripadvisor16 API, focusing on validating endpoints related to hotels, restaurants, and attractions.
 
+It also includes integration with Jenkins for continuous integration, enabling automated test execution as part of the CI/CD pipeline.
+
 ## Clone the Repository
 ```bash
 git clone https://github.com/lavanyapetchetti/controlUp.git
