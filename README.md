@@ -1,5 +1,5 @@
-# ControlUp
-This is a node.js repo for Edge DX – Cloud QA Automation
+# TravelAPI
+This project provides an automated testing framework for the Tripadvisor16 API, focusing on validating endpoints related to hotels, restaurants, and attractions.
 
 ## Clone the Repository
 ```bash
