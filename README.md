@@ -5,8 +5,8 @@ It also includes integration with Jenkins for continuous integration, enabling a
 
 ## Clone the Repository
 ```bash
-git clone https://github.com/lavanyapetchetti/controlUp.git
-cd controlUp
+git clone https://github.com/lavanyapetchetti/TravelAPI.git
+cd TravelAPI
 ```
 
 ## Getting Started
